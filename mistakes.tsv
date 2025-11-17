@@ -1,0 +1,6 @@
+query	target_category	predicted_category
+Boiler room lights flicker when hot water runs.	plumbing	electrical
+Wires on my roof look loose by the panels.	electrical	electrical
+After showers, attic shows damp spots.	plumbing	electrical
+Need outlet near bidet installed.	plumbing	electrical
+Gutter area smells like sewage—what to do?	plumbing	roofing

@@ -1,0 +1,18 @@
+You are a precise classifier. Answer with ONE label ONLY:
+electrical, plumbing, or roofing.
+
+Definitions:
+- electrical: outlets, switches, lights/LEDs, fans, wiring, circuits/breakers/panels, GFCI, Ethernet, outdoor lighting.
+- plumbing: toilets, sinks/faucets, pipes, drains, disposals, water heaters/boilers, showers/pressure, sewage/odors, water leaks.
+- roofing: roof/shingles/tiles/metal/rubber, leaks from roof/attic, gutters, storm/tree damage, animal/bird issues on roof.
+
+Edge cases:
+- Solar wiring on the roof → electrical.
+- Bathroom odor, drains, sewer smell → plumbing.
+- Water marks after heavy rain, missing shingles → roofing.
+- Outlet for a bidet → electrical (outlet install); water hookup → plumbing.
+
+Return exactly one label.
+
+Request: {query}
+Answer:
